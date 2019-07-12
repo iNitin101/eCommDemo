@@ -1,0 +1,35 @@
+.parents
+{
+
+    
+
+}
+.boxes{
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid rgba(255,255,140,0.5);
+    border-radius: 5px;
+    margin: 1%;
+    padding: 5%;
+    background-color: aquamarine;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+
+
+@media(max-width: 600px)
+{
+
+    .boxes
+    {
+        display: flex;
+        justify-content : space-evenly;
+
+    }   
+}
